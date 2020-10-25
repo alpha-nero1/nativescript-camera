@@ -175,7 +175,7 @@ export let takePicture = function (options): Promise<any> {
         imagePickerController.modalPresentationStyle = UIModalPresentationStyle.CurrentContext;
 
         UIApplication.sharedApplication.keyWindow.rootViewController.presentViewControllerAnimatedCompletion(imagePickerController, true, null);
-         
+        
     });
 };
 
